@@ -1,0 +1,82 @@
+.logo{
+    position: absolute;
+    width: 148px;
+    height: 148px;
+    left: 112px;
+    top: -6px;
+}
+
+.navbar-nav .nav-item{
+    color:black;
+    font-family: Noto Sans, sans-serif;
+    font-size: 22.8898px;
+    padding: 0.5rem;
+}
+
+.nav-item:hover {
+    color: #C70039 ;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 802px;
+    height: 35.42px;
+    left: 600px;
+    top: 56.94px;
+}
+
+.carousel {
+    position: absolute;
+    width: 636px;
+    height: 307.13px;
+    /* left: 70px; */
+    top: 180px;
+}
+
+.titleRosa {
+    position: absolute;
+    width: 722.65px;
+    height: 68.01px;
+    /* left: 807.53px; */
+    top: 308.59px;
+    font-family: Noto Sans, sans-serif;
+    font-weight: 700;
+    font-size: 44.0489px;
+}
+
+.brush {
+    background-image: url(../assets/brush.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22.7864px;
+    text-align: center;
+    color: #FFFFFF !important;
+    background-color: #C70039 !important;
+    margin-left: 3rem !important;
+    padding:  1rem 4rem 1rem 4rem !important;
+    border-radius: 63.2957px !important;
+}
+
+
+.markPage{
+    color: #C70039 !important;
+}
+
+
+.productos {
+    background-color: #C70039 !important;
+    position: absolute;
+width: auto;
+height: 390px;
+top: 580px;
+}
