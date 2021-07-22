@@ -1,0 +1,143 @@
+.container {
+    width: 75% !important;
+    margin: auto !important;
+    padding: 5rem 0;
+}
+
+#menu .container {
+    padding: 0 !important;
+}
+
+.inicio .container {
+    padding-top: 0;
+}
+
+.logo{
+    width: 148px;
+    height: 148px;
+}
+
+.navbar-nav .nav-item{
+    color:black;
+    font-family: Noto Sans, sans-serif;
+    font-size: 22.8898px;
+    padding: 0.5rem;
+}
+
+.nav-item:hover .nav-link{
+    color: #C70039 !important;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+}
+
+
+.titleRosa {
+    font-family: Noto Sans, sans-serif;
+    font-weight: 700;
+    font-size: 44.0489px;
+}
+
+.titleRosa h1 {
+    line-height: 4rem;
+}
+
+.brush {
+    background-image: url(../assets/brush.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22.7864px;
+    text-align: center;
+    color: #FFFFFF !important;
+    background-color: #C70039 !important;
+    padding:  1rem 2rem 1rem 2rem !important;
+    border-radius: 63.2957px !important;
+}
+
+.btn.secundario {
+    background-color: #FFFFFF !important;
+    border: 2px solid #C70039 !important;
+    color: #C70039 !important;
+}
+
+.btn.terciario {
+    background-color: transparent !important;
+    border: 2px solid #ffffff !important;
+    color: #ffffff !important;
+}
+
+.btn:hover {
+    background-color: #000000 !important;
+}
+
+.btn.secundario:hover {
+    color: #ffffff !important;
+}
+
+.inicio .btn {
+    margin-left: 3rem !important;
+}
+
+.markPage{
+    color: #C70039 !important;
+}
+
+
+.productos {
+    background-color: #C70039 !important;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 400 !important;
+}
+
+.productos .img-container {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: 700 !important;
+    font-family: Noto Sans, sans-serif;
+}
+
+p {
+    font-family: Noto Sans, sans-serif;
+    font-weight: 400 !important;
+}
+
+p.grande {
+    font-size: 1.25rem;
+    margin: 1rem 0;
+}
+
+.recetas {
+    background-color: #C70039;
+    color: #ffffff;
+}
+
+form {
+    margin: 2rem 0;
+}
+
+.form-control {
+    background-color: #F5F5F5 !important;
+    border-radius: 2rem !important;
+    padding: 1rem 2rem !important;
+}
