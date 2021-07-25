@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <title>Mosqueta Balance </title>
+    <title>Mosqueta Balance</title>
 </head>
 
 <body>
@@ -26,19 +26,19 @@
                             aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="d-flex flex-row bd-highlight mb-3 nav-bar">
+                        <div class=" justify-content-end navbar-collapse collapse" id="navbarText">
                             <ul class="navbar-nav mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="/index.html">Inicio</a>
+                                    <a class="nav-link" href="/index.html">Inicio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="pages/productos.html">Productos</a>
+                                    <a class="nav-link" href="productos.html">Productos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="pages/nosotros.html">Nosotros</a>
+                                    <a class="nav-link" href="nosotros.html">Nosotros</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="pages/recetas.html">Recetas</a>
+                                    <a class="nav-link" href="recetas.html">Recetas</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link active" href="#">Contacto</a>
@@ -49,6 +49,49 @@
                 </nav>
             </div>
         </section>
+
+        <section id="contacto-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-12">
+                        <h2><span class="brush big">Contacto</span></h2>
+                    </div>
+                </div>
+                <div class="row gx-5 d-flex justify-content-between">
+                    <div class="col-lg-5 col-12">
+                        <p class="grande">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores similique ratione minima sed, iure saepe porro explicabo consequuntu</p>
+                        <form method="GET" action="mailto:test@gmail.com" enctype="text/plain">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" name="subject" placeholder="Nombre">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" name="cc" placeholder="Email">
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" name="body" rows="6" placeholder="Tu mensaje..."></textarea>
+                            </div>
+                            <input type="submit" class="btn btn-lg" value="Enviar"/>
+                        </form>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <img src="/assets/Open Doodles-Laying Down.png" alt="Ilustracion contacto"/>
+                        <h3>NUESTRAS REDES</h3>
+                        <div class="redes d-flex">
+                            <a href="#">
+                                <img src="/assets/facebook.svg"/>
+                            </a>
+                            <a href="#">
+                                <img src="/assets/instagram.svg"/>
+                            </a>
+                            <a href="#">
+                                <img src="/assets/twitter.svg"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </div>
 
     <!-- JavaScript Bundle with Popper -->

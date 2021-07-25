@@ -28,6 +28,14 @@
     color: #C70039 !important;
 }
 
+.nav-link {
+    color: #000000 !important;
+}
+
+.nav-link.active {
+    color: #C70039 !important;
+}
+
 .nav-bar {
     display: flex;
     flex-direction: row;
@@ -52,6 +60,12 @@
     background-size: cover;
 }
 
+.brush.big {
+    background-image: url(../assets/brushBig.svg);
+    background-size: contain;
+    background-position: center;
+}
+
 .btn {
     font-family: Noto Sans;
     font-style: normal;
@@ -60,7 +74,7 @@
     text-align: center;
     color: #FFFFFF !important;
     background-color: #C70039 !important;
-    padding:  1rem 2rem 1rem 2rem !important;
+    padding:  0.75rem 2rem 0.75rem 2rem !important;
     border-radius: 63.2957px !important;
 }
 
@@ -140,4 +154,109 @@ form {
     background-color: #F5F5F5 !important;
     border-radius: 2rem !important;
     padding: 1rem 2rem !important;
+}
+
+.form-control:active, .form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: #C70039 !important;
+}
+
+#contacto-section h2 {
+    font-size: 2.5rem;
+}
+
+#contacto-section h2 .brush {
+    padding: 2rem 4rem;
+}
+
+#contacto-section img {
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+#contacto-section h3 {
+    font-family: Noto Sans, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+#contacto-section p.grande {
+    margin-top: 3rem;
+}
+
+.redes img {
+    width: 80%;
+}
+
+textarea {
+    resize: none !important;
+}
+
+.accordion {
+    margin-top: 4rem;
+}
+
+.accordion-item {
+    border: none !important;
+    border-bottom: 1px solid rgba(0,0,0,.125) !important;
+    padding: 0.75rem 0;
+}
+
+.accordion-button:focus, .accordion-button:active {
+    box-shadow: none !important;
+}
+
+.accordion-button::after, .accordion-button:not(.collapsed)::after {
+    background-image: none !important;
+    width: 0 !important;
+    margin: 0 !important;
+}
+
+.accordion-button:not(.collapsed)::before {
+    background-image: url(/assets/arrow-nocollapsed.svg);
+}
+
+.accordion-button::before {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 0.5rem;
+    content: "";
+    background-image: url(/assets/arrow-collapsed.svg);
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    background-position: center;
+    transition: transform .2s ease-in-out;
+}
+
+.accordion-header button {
+    text-transform: uppercase;
+    font-size: 1.15rem;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #C70039 !important;
+    background-color: #ffffff !important;
+    box-shadow: none !important;
+}
+
+.accordion-body p {
+    font-weight: 700 !important;
+}
+
+@media screen and (max-width: 414px) {
+    .container {
+        width: 95% !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #contacto-section .container {
+        padding-top: 2rem;
+    }
+
+    form {
+        margin-bottom: 3rem;
+    }
 }
