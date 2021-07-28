@@ -256,6 +256,19 @@ textarea {
         padding-top: 2rem;
     }
 
+    #contacto-section .recetas-container {
+        flex-direction: column-reverse;
+    }
+
+    #contacto-section .recetas-container img {
+        margin-bottom: 0;
+        margin-top: 2.5rem;
+    }
+
+    #contacto-section .recetas-container .accordion {
+        margin-top: 1rem;
+    }
+
     form {
         margin-bottom: 3rem;
     }
