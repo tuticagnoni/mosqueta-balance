@@ -66,9 +66,18 @@
   background-position: center;
 }
 
+.brush.inicio {
+  background-image: url(../assets/brushInicio.svg);
+  padding: 0.5rem 4rem 0.5rem 2.5rem;
+}
+
+.linea2 {
+  padding: 0 2.5rem;
+}
+
 .nosotrosTitle {
   padding: 30px;
-  font-size: 1.3em;
+  font-size: 2.5rem;
 }
 
 .btn {
@@ -104,7 +113,7 @@
 }
 
 .inicio .btn {
-  margin-left: 3rem !important;
+  margin-left: 2.5rem !important;
 }
 
 .markPage {
@@ -276,9 +285,45 @@ textarea {
   font-size: 16px;
 }
 
+#productos-section {
+  padding-top: 1rem;
+}
+
+#nosotros-section .grande {
+  margin-top: 3rem;
+}
+
+.propiedades {
+  margin-top: 1rem;
+}
+
+.titleProductos {
+  line-height: 3rem;
+}
+
 @media screen and (max-width: 414px) {
   .container {
     width: 95% !important;
+  }
+
+  .titleRosa {
+    padding: 0;
+  }
+
+  .linea2 {
+    padding: 0;
+  }
+
+  .brush.inicio {
+    padding: 0;
+  }
+
+  .inicio .btn {
+    margin-left: 0 !important;
+  }
+
+  .titleProductos {
+    font-size: 20px !important;
   }
 }
 
@@ -306,21 +351,19 @@ textarea {
 
   .indexNosotros {
     height: 80%;
+    max-width: 100%;
+    margin-top: 2rem;
   }
+
   .indexRecetas {
     height: 80%;
     width: auto;
+    max-width: 100%;
+    margin-bottom: 2rem;
   }
 
   .nosotrosImgThinking {
     height: 90%;
     width: auto;
-  }
-
-  @media screen and (max-width: 360px) {
-    .titleProductos {
-      font-size: 20px;
-      padding: 1%;
-    }
   }
 }
