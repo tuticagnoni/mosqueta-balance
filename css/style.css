@@ -1,275 +1,300 @@
 .container {
-    width: 75% !important;
-    margin: auto !important;
-    padding: 5rem 0;
+  width: 75% !important;
+  margin: auto !important;
+  padding: 5rem 0;
 }
 
 #menu .container {
-    padding: 0 !important;
+  padding: 0 !important;
 }
 
 .inicio .container {
-    padding-top: 0;
+  padding-top: 0;
 }
 
-.logo{
-    width: 148px;
-    height: 148px;
+.logo {
+  width: 148px;
+  height: 148px;
 }
 
-.navbar-nav .nav-item{
-    color:black;
-    font-family: Noto Sans, sans-serif;
-    font-size: 22.8898px;
-    padding: 0.5rem;
+.navbar-nav .nav-item {
+  color: black;
+  font-family: Noto Sans, sans-serif;
+  font-size: 22.8898px;
+  padding: 0.5rem;
 }
 
-.nav-item:hover .nav-link{
-    color: #C70039 !important;
+.nav-item:hover .nav-link {
+  color: #c70039 !important;
 }
 
 .nav-link {
-    color: #000000 !important;
+  color: #000000 !important;
 }
 
 .nav-link.active {
-    color: #C70039 !important;
+  color: #c70039 !important;
 }
 
 .nav-bar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
 }
 
-
 .titleRosa {
-    font-family: Noto Sans, sans-serif;
-    font-weight: 700;
-    font-size: 44.0489px;
+  font-family: Noto Sans, sans-serif;
+  font-weight: 700;
+  font-size: 44.0489px;
 }
 
 .titleRosa h1 {
-    line-height: 4rem;
+  line-height: 4rem;
 }
 
 .brush {
-    background-image: url(../assets/brush.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(../assets/brush.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .brush.big {
-    background-image: url(../assets/brushBig.svg);
-    background-size: contain;
-    background-position: center;
+  background-image: url(../assets/brushBig.svg);
+  background-size: contain;
+  background-position: center;
 }
 
 .btn {
-    font-family: Noto Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22.7864px;
-    text-align: center;
-    color: #FFFFFF !important;
-    background-color: #C70039 !important;
-    padding:  0.75rem 2rem 0.75rem 2rem !important;
-    border-radius: 63.2957px !important;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22.7864px;
+  text-align: center;
+  color: #ffffff !important;
+  background-color: #c70039 !important;
+  padding: 0.75rem 2rem 0.75rem 2rem !important;
+  border-radius: 63.2957px !important;
 }
 
 .btn.secundario {
-    background-color: #FFFFFF !important;
-    border: 2px solid #C70039 !important;
-    color: #C70039 !important;
+  background-color: #ffffff !important;
+  border: 2px solid #c70039 !important;
+  color: #c70039 !important;
 }
 
 .btn.terciario {
-    background-color: transparent !important;
-    border: 2px solid #ffffff !important;
-    color: #ffffff !important;
+  background-color: transparent !important;
+  border: 2px solid #ffffff !important;
+  color: #ffffff !important;
 }
 
 .btn:hover {
-    background-color: #000000 !important;
+  background-color: #000000 !important;
 }
 
 .btn.secundario:hover {
-    color: #ffffff !important;
+  color: #ffffff !important;
 }
 
 .inicio .btn {
-    margin-left: 3rem !important;
+  margin-left: 3rem !important;
 }
 
-.markPage{
-    color: #C70039 !important;
+.markPage {
+  color: #c70039 !important;
 }
-
 
 .productos {
-    background-color: #C70039 !important;
-    text-align: center;
-    color: #FFFFFF;
-    font-weight: 400 !important;
+  background-color: #c70039 !important;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 400 !important;
 }
 
 .productos .img-container {
-    width: 150px;
-    height: 150px;
-    margin: auto;
-    border-radius: 50%;
-    background-color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h2 {
-    text-transform: uppercase;
-    font-weight: 700 !important;
-    font-family: Noto Sans, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700 !important;
+  font-family: Noto Sans, sans-serif;
 }
 
 p {
-    font-family: Noto Sans, sans-serif;
-    font-weight: 400 !important;
+  font-family: Noto Sans, sans-serif;
+  font-weight: 400 !important;
 }
 
 p.grande {
-    font-size: 1.25rem;
-    margin: 1rem 0;
+  font-size: 1.25rem;
+  margin: 1rem 0;
 }
 
 .recetas {
-    background-color: #C70039;
-    color: #ffffff;
+  background-color: #c70039;
+  color: #ffffff;
 }
 
 form {
-    margin: 2rem 0;
+  margin: 2rem 0;
 }
 
 .form-control {
-    background-color: #F5F5F5 !important;
-    border-radius: 2rem !important;
-    padding: 1rem 2rem !important;
+  background-color: #f5f5f5 !important;
+  border-radius: 2rem !important;
+  padding: 1rem 2rem !important;
 }
 
-.form-control:active, .form-control:focus {
-    outline: none !important;
-    box-shadow: none !important;
-    border-color: #C70039 !important;
+.form-control:active,
+.form-control:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #c70039 !important;
 }
 
 #contacto-section h2 {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 #contacto-section h2 .brush {
-    padding: 2rem 4rem;
+  padding: 2rem 4rem;
 }
 
 #contacto-section img {
-    width: 100%;
-    margin-bottom: 2.5rem;
+  width: 100%;
+  margin-bottom: 2.5rem;
 }
 
 #contacto-section h3 {
-    font-family: Noto Sans, sans-serif;
-    font-size: 1.2rem;
-    font-weight: 700;
+  font-family: Noto Sans, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 
 #contacto-section p.grande {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 .redes img {
-    width: 80%;
+  width: 80%;
 }
 
 textarea {
-    resize: none !important;
+  resize: none !important;
 }
 
 .accordion {
-    margin-top: 4rem;
+  margin-top: 4rem;
 }
 
 .accordion-item {
-    border: none !important;
-    border-bottom: 1px solid rgba(0,0,0,.125) !important;
-    padding: 0.75rem 0;
+  border: none !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125) !important;
+  padding: 0.75rem 0;
 }
 
-.accordion-button:focus, .accordion-button:active {
-    box-shadow: none !important;
+.accordion-button:focus,
+.accordion-button:active {
+  box-shadow: none !important;
 }
 
-.accordion-button::after, .accordion-button:not(.collapsed)::after {
-    background-image: none !important;
-    width: 0 !important;
-    margin: 0 !important;
+.accordion-button::after,
+.accordion-button:not(.collapsed)::after {
+  background-image: none !important;
+  width: 0 !important;
+  margin: 0 !important;
 }
 
 .accordion-button:not(.collapsed)::before {
-    background-image: url(/assets/arrow-nocollapsed.svg);
+  background-image: url(/assets/arrow-nocollapsed.svg);
 }
 
 .accordion-button::before {
-    flex-shrink: 0;
-    width: 1.25rem;
-    height: 1.25rem;
-    margin-right: 0.5rem;
-    content: "";
-    background-image: url(/assets/arrow-collapsed.svg);
-    background-repeat: no-repeat;
-    background-size: 1rem;
-    background-position: center;
-    transition: transform .2s ease-in-out;
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.5rem;
+  content: "";
+  background-image: url(/assets/arrow-collapsed.svg);
+  background-repeat: no-repeat;
+  background-size: 1rem;
+  background-position: center;
+  transition: transform 0.2s ease-in-out;
 }
 
 .accordion-header button {
-    text-transform: uppercase;
-    font-size: 1.15rem;
+  text-transform: uppercase;
+  font-size: 1.15rem;
 }
 
 .accordion-button:not(.collapsed) {
-    color: #C70039 !important;
-    background-color: #ffffff !important;
-    box-shadow: none !important;
+  color: #c70039 !important;
+  background-color: #ffffff !important;
+  box-shadow: none !important;
 }
 
 .accordion-body p {
-    font-weight: 700 !important;
+  font-weight: 700 !important;
+}
+
+/*Page Productos*/
+.card {
+  width: 35rem !important;
+}
+#more1,
+#more2,
+#more3,
+#more4,
+#more5,
+#more6,
+#more7,
+#more8 {
+  display: none;
+}
+
+.btnProductos {
+  padding: 0;
+  border: none;
+  background: none;
+  color: #c70039;
+  font-weight: 600 !important;
+  font-size: 16px;
 }
 
 @media screen and (max-width: 414px) {
-    .container {
-        width: 95% !important;
-    }
+  .container {
+    width: 95% !important;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    #contacto-section .container {
-        padding-top: 2rem;
-    }
+  #contacto-section .container {
+    padding-top: 2rem;
+  }
 
-    #contacto-section .recetas-container {
-        flex-direction: column-reverse;
-    }
+  #contacto-section .recetas-container {
+    flex-direction: column-reverse;
+  }
 
-    #contacto-section .recetas-container img {
-        margin-bottom: 0;
-        margin-top: 2.5rem;
-    }
+  #contacto-section .recetas-container img {
+    margin-bottom: 0;
+    margin-top: 2.5rem;
+  }
 
-    #contacto-section .recetas-container .accordion {
-        margin-top: 1rem;
-    }
+  #contacto-section .recetas-container .accordion {
+    margin-top: 1rem;
+  }
 
-    form {
-        margin-bottom: 3rem;
-    }
+  form {
+    margin-bottom: 3rem;
+  }
 }
