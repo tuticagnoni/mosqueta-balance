@@ -47,6 +47,7 @@
   font-family: Noto Sans, sans-serif;
   font-weight: 700;
   font-size: 44.0489px;
+  padding: 5%;
 }
 
 .titleRosa h1 {
@@ -63,6 +64,11 @@
   background-image: url(../assets/brushBig.svg);
   background-size: contain;
   background-position: center;
+}
+
+.nosotrosTitle {
+  padding: 30px;
+  font-size: 1.3em;
 }
 
 .btn {
@@ -296,5 +302,25 @@ textarea {
 
   form {
     margin-bottom: 3rem;
+  }
+
+  .indexNosotros {
+    height: 80%;
+  }
+  .indexRecetas {
+    height: 80%;
+    width: auto;
+  }
+
+  .nosotrosImgThinking {
+    height: 90%;
+    width: auto;
+  }
+
+  @media screen and (max-width: 360px) {
+    .titleProductos {
+      font-size: 20px;
+      padding: 1%;
+    }
   }
 }

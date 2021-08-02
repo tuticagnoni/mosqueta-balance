@@ -15,21 +15,21 @@
 </head>
 
 <body>
-     <!--NavBar-->
-     <header id="menu">
+<!--NavBar-->
+    <header id="menu">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="/index.html"><img src="/assets/LogoCuadradoSinFondo.png" class="logo"
+                    <a class="navbar-brand" href="../index.html"><img src="/assets/LogoCuadradoSinFondo.png" class="logo"
                             alt="logoMosqueta"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="d-flex flex-row bd-highlight mb-3 nav-bar">
+                    <div class=" justify-content-end navbar-collapse collapse" id="navbarText">
                         <ul class="navbar-nav mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" href="/index.html">Inicio</a>
+                                <a class="nav-link" href="../index.html">Inicio</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" href="#">Productos</a>
@@ -38,7 +38,7 @@
                                 <a class="nav-link" href="nosotros.html">Nosotros</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="recetas.html">Recetas</a>
+                                <a class="nav-link " href="recetas.html">Recetas</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="contacto.html">Contacto</a>
@@ -49,17 +49,22 @@
             </nav>
         </div>
     </header>
-    <!--End NavBar-->
+<!--End NavBar-->
 
 
 
 <!--Section Cuidado de tu piel-->
-    <div class="container-fluid">
+<div class="container-fluid">
+    <div class="col">
         <br>
         <br>
-        <h2><span class="brush p-4 mb-5 m-1">Cuidado de tu piel</span></h2>
-        <br>
-        <div class="row">
+        <div class="row d-flex justify-content-center">
+            <h2><span class="brush p-4 mb-5 m-3 titleProductos">Cuidado de tu piel</span></h2>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="row d-flex justify-content-center">
 
             <!--Card1-->
             <div class="card left mb-3 col-lg-6 col-12 shadow p-3 mb-5 m-3 bg-white rounded " >
@@ -185,12 +190,17 @@
 <!--End Section Cuidado de tu piel-->
 
 <!--Section Alimentos Funcionales-->
-    <div class="container-fluid">
+<div class="container-fluid">
         <br>
         <br>
-        <h2><span class="brush p-4 mb-5 m-1">Alimentos Funcionales</span></h2>
-        <br>
-        <div class="row">
+    <div class="col">
+        <div class="row d-flex justify-content-center">
+            <h2><span class="brush p-4 mb-5 m-3 titleProductos">Alimentos Funcionales</span></h2>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="row d-flex justify-content-center">
 
             <!--Card5-->
             <div class="card left mb-3 col-lg-6 col-12 shadow p-3 mb-5 m-3 bg-white rounded " >
@@ -313,7 +323,10 @@
             <!--EndCard8-->
         </div>
     </div>
+    </div>
+</div>
 <!--End Section Alimentos Funcionales-->
+
 
     <script src="/js/main.js"></script>
     <!-- JavaScript Bundle with Popper -->
